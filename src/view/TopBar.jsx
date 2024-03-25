@@ -9,7 +9,7 @@ const TopBar = ({ children }) => (
 );
 export default TopBar;
 
-const spin = styled.keyframes`
+const spin = keyframes`
   from {
     transform: rotate(0deg);
   }
