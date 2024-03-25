@@ -7,13 +7,12 @@ export default function App() {
     <div className="app">
       <TopBar>React Components are state machines</TopBar>
       <h1 className="headline white-text">_ ^ _ Stateful Bookstore _ ^ _</h1>
-      <Counter item="Book" initialValue={3}/>
-      <Counter item="Customer" initialValue={12}/>
-      <Counter item="Employee" initialValue={24}/>
+      <Counter item="Book" initialValue={3} />
+      {/* <Counter item="Customer" initialValue={12}/>
+      <Counter item="Employee" initialValue={24}/> */}
       <br />
       <hr />
       <NameInput />
     </div>
   );
 }
-
